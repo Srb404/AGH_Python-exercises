@@ -18,8 +18,8 @@ else:
 
     for _ in range(3):
         print(numbers[0])
-        numbers[0] = numbers[0] + 1
+        numbers[0] += 1
 
     for _ in range(3):
         print(numbers[1])
-        numbers[1] = numbers[1] + 1
+        numbers[1] += 1

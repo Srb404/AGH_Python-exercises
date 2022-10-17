@@ -1,12 +1,12 @@
 import random
 
-branches = ""
 trunk = "U"
 
 height_of_tree = abs(int(input("Wprowadź liczbę: ")))
 print("\n")
 
 for height in range(height_of_tree):
+    branches = ""
     for _ in range(int(height_of_tree) - height):
         branches = " " + branches
 
