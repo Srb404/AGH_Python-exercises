@@ -51,6 +51,8 @@ while power:
             moneyOut()
         case 3:
             moneyCheck()
+        case _:
+            print(f"Błąd. Nie ropoznaję opcji {option}")
 
     # Menu_2
     print("Operacja zakończona. Czy chcesz wykonać kolejną? \n"
@@ -66,3 +68,5 @@ while power:
             print("Dziękujemy za skorzystanie z bankomatu. Program zakończy działanie za 3 sekundy.")
             time.sleep(3)
             power = False
+        case _:
+            print(f"Błąd. Nie ropoznaję opcji {option}. Kontynuuję działanie programu.")
